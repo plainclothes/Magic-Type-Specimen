@@ -1,0 +1,232 @@
+/*
+================================================================================================
+Apply test fonts
+================================================================================================
+*/
+
+/* Oswald:400,300,700|Permanent+Marker|Chivo:400,900,400italic,900italic */
+
+/* text */
+
+.work-sans {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* headline */
+
+.source-sans {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.chivo {
+  font-family: 'Chivo', serif;
+}
+
+.bump {
+  font-size: 1.14em;
+}
+
+.bigbump {
+  font-size: 1.3em!important;
+}
+
+.squint {
+  font-size: .8em!important;
+}
+
+.light {
+  font-weight: 300;
+}
+.normal {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 700;
+}
+.fat {
+  font-weight: 900;
+}
+
+/*
+================================================================================================
+Misc styles
+================================================================================================
+*/
+
+div.intro {
+  font-size: 2.2em;
+  line-height: 1.14;
+  margin-bottom: 18px;
+  font-weight: 300;
+  color: #169f00;
+}
+.row.flush {
+  margin: 0 -15px 0;
+}
+#header {
+  padding: 18px 0px 30px;
+  background-color: #03a4af;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.6);
+  border-radius: 0;
+}
+#header .row {
+  margin: 0;
+}
+#header h1 {
+  font-size: 42px;
+  color: #fff;
+}
+.tint {
+  color: #A3A396 !important;
+}
+/*
+================================================================================================
+Boostrap overrides
+================================================================================================
+*/
+
+* {
+  transition: all ease-in-out 204ms;
+}
+html,body {
+  font-family: 'Source Sans Pro';
+  color: #000;
+}
+p,h1,h2,h3,h4,h5,h6 {
+  font-family: inherit;
+}
+p { margin-bottom: 18px; }
+h1 {
+  font-size: 48px;
+}
+.specimenBlock h2 {
+  font-size: 63px;
+  font-weight: 700;
+  margin-top: 0;
+  line-height: 1;
+  color: #000;
+}
+.specimenBlock h2.soft {
+  font-weight: 300;
+}
+.specimenBlock h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #2EA9D3;
+}
+.btn {
+  margin: 24px 0px 30px;
+  border-radius: 3px;
+  font-size: 16px !important;
+}
+.btn + .btn {
+  margin-left: 18px;
+}
+.btn-default{
+  color:#000;
+  background-color: #60dbe3;
+  border-color: #60dbe3;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+  background-color: #9ee8ed;
+  border-color: #60dbe3;
+  box-shadow: 0 0 6px rgba(51, 51, 42, 0.30) inset;
+}
+.btn-primary {
+	color:#fff;
+	background-color: #169f00;
+	border-color: #169f00;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #38ba23;
+  border-color: #169f00;
+}
+.btn-warning {
+  background-color: #e28e00;
+  border-color: #e28e00;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active {
+  background-color: #ffa100;
+}
+.btn-danger {
+  background-color: #a2003a;
+  border-color: #a2003a;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active {
+  background-color: #bb1c55;
+}
+.btn-primary:hover, .btn-primary:focus,
+.btn-warning:hover, .btn-warning:focus,
+.btn-danger:hover, .btn-danger:focus {
+  box-shadow: 0 0 6px rgba(51, 51, 42, 0.6) inset;
+}
+.navbar {
+  font-size: 16px;
+  border: 0;
+}
+.navbar-inverse {
+  background-color: #4e0093;
+}
+.navbar-inverse .navbar-brand {
+  color: #3bf3ff;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #eee;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:active,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #7205d2;
+  box-shadow: 0 0 6px rgba(51, 51, 42, 0.6) inset;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:active,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #7205d2;
+  color: #eee;
+  box-shadow: none;
+}
+.dropdown-menu > li > .input-group {
+  padding: 6px 15px 12px;
+}
+.nav-pills {
+  margin: 18px 0 18px;
+}
+.nav-pills > li > a {
+  border-radius: 0;
+  border-bottom: solid 3px;
+  border-color: transparent;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  border-color: #e28e00;
+  background-color: transparent;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #000;
+  background-color: transparent;
+  border-color: #e28e00;
+
+}
+.row {
+  margin: 30px 0 36px;
+}
+.table {
+    border: solid 1px #ddd;
+}
+th {
+  font-weight: 700;
+  background-color: #e3e3e3;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+  background-color: #ffe4b6;
+}
